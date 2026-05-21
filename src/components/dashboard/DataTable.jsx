@@ -113,7 +113,7 @@ export default function DataTable({ campaigns, onRowClick, searchQuery }) {
       </div>
 
       {/* Desktop Table View */}
-      <div className="hidden lg:block overflow-x-auto">
+      <div className="max-lg:hidden overflow-x-auto">
         <table className="w-full text-left border-collapse">
           <thead>
             <tr className="bg-slate-50/50 dark:bg-slate-950/20 text-slate-400 dark:text-slate-500 font-sans text-xs font-semibold border-b border-slate-100 dark:border-slate-800">
